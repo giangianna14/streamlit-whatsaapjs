@@ -154,3 +154,12 @@ static/media/
 
 # Sessions
 sessions/
+
+# Runtime Data Files (exclude from git)
+orders.db
+python_message_logs.json
+session_debug.json
+user_sessions.json
+qr_code.txt
+bot_status.txt
+message_logs.json
