@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-umkm-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot untuk UMKM dengan Streamlit Dashboard",
+  "main": "whatsapp_bot.js",
+  "scripts": {
+    "start": "node whatsapp_bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.22.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "umkm",
+    "indonesia",
+    "orders"
+  ],
+  "author": "UMKM Developer",
+  "license": "MIT"
+}
