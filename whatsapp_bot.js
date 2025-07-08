@@ -105,26 +105,39 @@ class WhatsAppBot {
     }
     
     async processWithChatbot(message, phoneNumber) {
-        // Untuk demo, kita akan menggunakan Python script untuk memproses
-        // Dalam implementasi nyata, Anda bisa menggunakan child_process untuk memanggil Python
-        
+        // Use proper Python environment for processing
         const { spawn } = require('child_process');
         
         return new Promise((resolve, reject) => {
-            const python = spawn('python3', ['process_message.py', message, phoneNumber]);
+            // Use the virtual environment Python interpreter
+            const pythonPath = '/workspaces/streamlit-whatsaapjs/.venv/bin/python';
+            const python = spawn(pythonPath, ['process_message.py', message, phoneNumber], {
+                cwd: '/workspaces/streamlit-whatsaapjs'
+            });
             
             let response = '';
+            let errorOutput = '';
             
             python.stdout.on('data', (data) => {
                 response += data.toString();
+            });
+            
+            python.stderr.on('data', (data) => {
+                errorOutput += data.toString();
             });
             
             python.on('close', (code) => {
                 if (code === 0) {
                     resolve(response.trim());
                 } else {
-                    resolve("Maaf, terjadi kesalahan. Silakan coba lagi.");
+                    console.error('Python process error:', errorOutput);
+                    resolve("Maaf, terjadi kesalahan sistem. Silakan coba lagi.");
                 }
+            });
+            
+            python.on('error', (error) => {
+                console.error('Failed to start Python process:', error);
+                resolve("Maaf, sistem sedang bermasalah. Silakan coba lagi nanti.");
             });
         });
     }

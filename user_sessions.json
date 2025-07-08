@@ -1,0 +1,172 @@
+{
+  "628111222333": {
+    "step": "greeting",
+    "order_data": {}
+  },
+  "628999888777": {
+    "step": "main_menu",
+    "order_data": {}
+  },
+  "628777666555": {
+    "step": "greeting",
+    "order_data": {}
+  },
+  "628555444333": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  "628333222111": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  "628111000999": {
+    "step": "main_menu",
+    "order_data": {}
+  },
+  "6281291737972": {
+    "step": "greeting",
+    "order_data": {}
+  },
+  "628000111222": {
+    "step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 1
+    }
+  },
+  "628999000111": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  "628888999000": {
+    "step": "greeting",
+    "order_data": {}
+  },
+  "6281234567890": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  "6281111222333": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        2,
+        "Teh Herbal Alami",
+        45000.0,
+        30,
+        "Teh herbal 100% alami untuk kesehatan",
+        "Minuman"
+      ]
+    }
+  },
+  "628111000001": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  "628111000002": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  "628111000003": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        2,
+        "Teh Herbal Alami",
+        45000.0,
+        30,
+        "Teh herbal 100% alami untuk kesehatan",
+        "Minuman"
+      ]
+    }
+  },
+  "628111000004": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        4,
+        "Sambal Homemade",
+        35000.0,
+        25,
+        "Sambal buatan rumah dengan rasa pedas mantap",
+        "Makanan"
+      ]
+    }
+  },
+  "628555666777": {
+    "step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ]
+    }
+  }
+}

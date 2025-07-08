@@ -1,0 +1,2178 @@
+[
+  {
+    "timestamp": "2025-07-08T17:27:36.241141",
+    "phone_number": "628111222333",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:27:36.241581",
+    "phone_number": "628111222333",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:27:46.577811",
+    "phone_number": "628111222333",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:27:46.578343",
+    "phone_number": "628111222333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:28:00.040876",
+    "phone_number": "628111222333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:28:00.041734",
+    "phone_number": "628111222333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:28:09.438851",
+    "phone_number": "628111222333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:28:09.439387",
+    "phone_number": "628111222333",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 3
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:28:18.551560",
+    "phone_number": "628111222333",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 3
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:28:18.552166",
+    "phone_number": "628111222333",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 3,
+      "customer_name": "Ahmad Rizki"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:28:28.686720",
+    "phone_number": "628111222333",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 3,
+      "customer_name": "Ahmad Rizki"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:28:28.691033",
+    "phone_number": "628111222333",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:28:43.922938",
+    "phone_number": "628111222333",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:28:43.923988",
+    "phone_number": "628111222333",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:29:41.603645",
+    "phone_number": "628999888777",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:29:41.604461",
+    "phone_number": "628999888777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:29:51.106007",
+    "phone_number": "628999888777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:29:51.106799",
+    "phone_number": "628999888777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.705457",
+    "phone_number": "628777666555",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.706257",
+    "phone_number": "628777666555",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.736951",
+    "phone_number": "628777666555",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.737617",
+    "phone_number": "628777666555",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.767381",
+    "phone_number": "628777666555",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.768353",
+    "phone_number": "628777666555",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.799292",
+    "phone_number": "628777666555",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.800082",
+    "phone_number": "628777666555",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.829739",
+    "phone_number": "628777666555",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.830482",
+    "phone_number": "628777666555",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Test User"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.862828",
+    "phone_number": "628777666555",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Test User"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.869038",
+    "phone_number": "628777666555",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.939484",
+    "phone_number": "628555444333",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.940571",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.973333",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:40.974832",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.005722",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.006653",
+    "phone_number": "628555444333",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.043853",
+    "phone_number": "628555444333",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.045010",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.075083",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.076288",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.106652",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.108367",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.139302",
+    "phone_number": "628333222111",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.140275",
+    "phone_number": "628333222111",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.184527",
+    "phone_number": "628333222111",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.185606",
+    "phone_number": "628333222111",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.214259",
+    "phone_number": "628333222111",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.215565",
+    "phone_number": "628333222111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.245464",
+    "phone_number": "628111000999",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.246571",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.276604",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.277883",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.311179",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.312223",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.342700",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:30:41.343780",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:08.435935",
+    "phone_number": "6281291737972",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:08.442023",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:16.823087",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:16.826997",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:23.969014",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:23.972728",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:38.192453",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:38.196335",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.009291",
+    "phone_number": "628777666555",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.011746",
+    "phone_number": "628777666555",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.051961",
+    "phone_number": "628777666555",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.053255",
+    "phone_number": "628777666555",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.090368",
+    "phone_number": "628777666555",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.092580",
+    "phone_number": "628777666555",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.163500",
+    "phone_number": "628777666555",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.165737",
+    "phone_number": "628777666555",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.215429",
+    "phone_number": "628777666555",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.216721",
+    "phone_number": "628777666555",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Test User"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.250528",
+    "phone_number": "628777666555",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Test User"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.272207",
+    "phone_number": "628777666555",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.341650",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.345218",
+    "phone_number": "628555444333",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.381729",
+    "phone_number": "628555444333",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.383730",
+    "phone_number": "628555444333",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.416430",
+    "phone_number": "628555444333",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.418117",
+    "phone_number": "628555444333",
+    "current_step": "main_menu",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.461948",
+    "phone_number": "628555444333",
+    "current_step": "main_menu",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.464554",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.508338",
+    "phone_number": "628555444333",
+    "current_step": "waiting_product",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.510094",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.543192",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.544725",
+    "phone_number": "628555444333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 2,
+      "customer_name": "Produk Tidak Ada"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.576139",
+    "phone_number": "628333222111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.577662",
+    "phone_number": "628333222111",
+    "current_step": "main_menu",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.611066",
+    "phone_number": "628333222111",
+    "current_step": "main_menu",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.612615",
+    "phone_number": "628333222111",
+    "current_step": "waiting_product",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.643852",
+    "phone_number": "628333222111",
+    "current_step": "waiting_product",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.645863",
+    "phone_number": "628333222111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.690726",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.693507",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.745206",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.747852",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.791200",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.793045",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.825440",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.827089",
+    "phone_number": "628111000999",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.867116",
+    "phone_number": "628000111222",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.868977",
+    "phone_number": "628000111222",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.901199",
+    "phone_number": "628000111222",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.903139",
+    "phone_number": "628000111222",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.944890",
+    "phone_number": "628000111222",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:49.947826",
+    "phone_number": "628000111222",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.015006",
+    "phone_number": "628999000111",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.017087",
+    "phone_number": "628999000111",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.049271",
+    "phone_number": "628999000111",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.051019",
+    "phone_number": "628999000111",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.081580",
+    "phone_number": "628999000111",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.083304",
+    "phone_number": "628999000111",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.118309",
+    "phone_number": "628999000111",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.120463",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.160088",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.162868",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.200950",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.203019",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.240430",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:50.242387",
+    "phone_number": "628999000111",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:32:53.668914",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:32:53.676190",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:33:41.938778",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:33:41.962713",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:33:49.575521",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:33:49.589390",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:01.439181",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:01.443733",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:11.588953",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:11.594340",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:17.646493",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:17.658701",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:20.907445",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:20.912980",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:32.493599",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:34:32.501518",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:34:36.526837",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:34:36.533105",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 3
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:34:46.957607",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 3
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:34:46.968715",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 3,
+      "customer_name": "Gian"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:34:54.220264",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 3,
+      "customer_name": "Gian"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:34:54.238502",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:35:52.960965",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:35:52.969902",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:35:58.361303",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:35:58.367220",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:09.721970",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:09.726502",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:12.971642",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:12.980265",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:33.768981",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:33.774172",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:46.604101",
+    "phone_number": "628888999000",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:46.606381",
+    "phone_number": "628888999000",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:47.140377",
+    "phone_number": "628888999000",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:47.142630",
+    "phone_number": "628888999000",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:47.678814",
+    "phone_number": "628888999000",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:36:47.681227",
+    "phone_number": "628888999000",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:36:48.216164",
+    "phone_number": "628888999000",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:36:48.218353",
+    "phone_number": "628888999000",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:36:48.750594",
+    "phone_number": "628888999000",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:36:48.752865",
+    "phone_number": "628888999000",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 1,
+      "customer_name": "Test Integration"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:36:49.285278",
+    "phone_number": "628888999000",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 1,
+      "customer_name": "Test Integration"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:36:49.296879",
+    "phone_number": "628888999000",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:38:37.922155",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:38:37.932970",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:38:42.807650",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:38:42.817823",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:38:56.329764",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:38:56.336023",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:39:55.476904",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:39:55.479361",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:40:05.911415",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:40:05.914158",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:40:16.325051",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:40:16.327738",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:41:37.518285",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:41:37.520751",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:41:53.341509",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:41:53.345365",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:42:03.364748",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:42:03.367374",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:12.932154",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:12.937231",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:24.105831",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:24.108387",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 2,
+      "customer_name": "Customer Test"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:35.381794",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 2,
+      "customer_name": "Customer Test"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:35.388114",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:42:44.880449",
+    "phone_number": "6281234567890",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:42:44.884355",
+    "phone_number": "6281234567890",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:42:54.757458",
+    "phone_number": "6281111222333",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:42:54.761250",
+    "phone_number": "6281111222333",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        2,
+        "Teh Herbal Alami",
+        45000.0,
+        30,
+        "Teh herbal 100% alami untuk kesehatan",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:56.964182",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:56.966875",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.001546",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.004390",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.036835",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.040507",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.079169",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.084079",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.124770",
+    "phone_number": "628111000001",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.127821",
+    "phone_number": "628111000001",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.164162",
+    "phone_number": "628111000002",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.167029",
+    "phone_number": "628111000002",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.201710",
+    "phone_number": "628111000003",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.204623",
+    "phone_number": "628111000003",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        2,
+        "Teh Herbal Alami",
+        45000.0,
+        30,
+        "Teh herbal 100% alami untuk kesehatan",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.239299",
+    "phone_number": "628111000004",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.242387",
+    "phone_number": "628111000004",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        4,
+        "Sambal Homemade",
+        35000.0,
+        25,
+        "Sambal buatan rumah dengan rasa pedas mantap",
+        "Makanan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.278042",
+    "phone_number": "628555666777",
+    "current_step": "none",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.280903",
+    "phone_number": "628555666777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.314279",
+    "phone_number": "628555666777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.317240",
+    "phone_number": "628555666777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.353206",
+    "phone_number": "628555666777",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-08T17:43:57.356209",
+    "phone_number": "628555666777",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:45:38.926947",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:45:38.933343",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:45:52.402955",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:45:52.414266",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 100
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:45:59.651461",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 100
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:45:59.660113",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 100,
+      "customer_name": "Bahja"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:46:06.240559",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        3,
+        "Keripik Singkong",
+        25000.0,
+        100,
+        "Keripik singkong renyah dan gurih",
+        "Makanan"
+      ],
+      "quantity": 100,
+      "customer_name": "Bahja"
+    }
+  },
+  {
+    "timestamp": "2025-07-08T17:46:06.303534",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  }
+]

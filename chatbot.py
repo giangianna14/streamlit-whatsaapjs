@@ -18,6 +18,7 @@ class OrderBot:
     
     def process_message(self, message, phone_number):
         """Memproses pesan dari WhatsApp dan memberikan respon"""
+        original_message = message.strip()
         message = message.strip().lower()
         
         # Inisialisasi session jika belum ada
@@ -28,6 +29,12 @@ class OrderBot:
             }
         
         session = self.user_sessions[phone_number]
+        
+        # Check for order commands first (works from any state)
+        if message.startswith('pesan '):
+            product_name = self.parse_order_command(message)
+            session['step'] = 'waiting_product'
+            return self.handle_product_selection(product_name, phone_number)
         
         # Greeting dan menu utama
         if message in ['hi', 'halo', 'hai', 'hello', 'menu', 'mulai']:
@@ -45,10 +52,10 @@ class OrderBot:
             return self.handle_quantity_input(message, phone_number)
         
         elif session['step'] == 'waiting_name':
-            return self.handle_name_input(message, phone_number)
+            return self.handle_name_input(original_message, phone_number)
         
         elif session['step'] == 'waiting_address':
-            return self.handle_address_input(message, phone_number)
+            return self.handle_address_input(original_message, phone_number)
         
         else:
             return self.show_main_menu()
@@ -80,7 +87,12 @@ Ketik angka pilihan Anda (1-4) atau ketik nama produk langsung untuk memesan."""
             catalog += f"📝 {product[4]}\n"
             catalog += "─" * 30 + "\n\n"
         
-        catalog += "💬 Untuk memesan, ketik: *pesan [nama produk]*\nContoh: *pesan nasi gudeg*"
+        catalog += """💬 *CARA MEMESAN:*
+• Ketik: *pesan [nama produk]*
+• Contoh: *pesan keripik singkong*
+• Atau: *pesan kopi* (nama singkat)
+
+Atau pilih menu *2* untuk pemesanan step-by-step."""
         return catalog
     
     def handle_product_selection(self, message, phone_number):
@@ -240,6 +252,18 @@ Ketik angka saja (contoh: 2)"""
                 return f"""❌ Pilihan tidak valid atau produk tidak ditemukan.
 
 {self.show_main_menu()}"""
+    
+    def parse_order_command(self, message):
+        """Parse perintah pemesanan dari user"""
+        message = message.lower().strip()
+        
+        # Handle "pesan [nama produk]" format
+        if message.startswith('pesan '):
+            product_name = message[6:].strip()  # Remove "pesan " prefix
+            return product_name
+        
+        # Handle direct product name
+        return message
 
 # Instance global bot
 order_bot = OrderBot()
