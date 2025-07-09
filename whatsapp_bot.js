@@ -8,7 +8,8 @@ class WhatsAppBot {
             authStrategy: new LocalAuth(),
             puppeteer: {
                 headless: true,
-                executablePath: '/usr/bin/google-chrome-stable',
+                // executablePath: '/usr/bin/google-chrome-stable',
+                // executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
                 args: [
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
@@ -85,7 +86,7 @@ class WhatsAppBot {
         const logData = fs.existsSync('message_logs.json') ? 
             JSON.parse(fs.readFileSync('message_logs.json', 'utf8')) : [];
         logData.push(logEntry);
-        fs.writeFileSync('message_logs.json', JSON.stringify(logData, null, 2));
+        fs.writeFileSync('message_logs.json', JSON.stringify(logData, null, 2), 'utf8');
         
         // Proses pesan menggunakan chatbot logic
         const response = await this.processWithChatbot(messageText, phoneNumber);
@@ -100,32 +101,34 @@ class WhatsAppBot {
                 response: response
             };
             logData.push(responseLog);
-            fs.writeFileSync('message_logs.json', JSON.stringify(logData, null, 2));
+            fs.writeFileSync('message_logs.json', JSON.stringify(logData, null, 2), 'utf8');
         }
     }
     
     async processWithChatbot(message, phoneNumber) {
         // Use proper Python environment for processing
         const { spawn } = require('child_process');
-        
+
         return new Promise((resolve, reject) => {
-            // Use the virtual environment Python interpreter
-            const pythonPath = '/workspaces/streamlit-whatsaapjs/.venv/bin/python';
+            // Use Windows-style Python path for local dev
+            const path = require('path');
+            const pythonPath = path.join(__dirname, 'venv', 'Scripts', 'python.exe');
             const python = spawn(pythonPath, ['process_message.py', message, phoneNumber], {
-                cwd: '/workspaces/streamlit-whatsaapjs'
+                cwd: __dirname,
+                env: { ...process.env, PYTHONIOENCODING: 'utf-8' }
             });
-            
+
             let response = '';
             let errorOutput = '';
-            
+
             python.stdout.on('data', (data) => {
                 response += data.toString();
             });
-            
+
             python.stderr.on('data', (data) => {
                 errorOutput += data.toString();
             });
-            
+
             python.on('close', (code) => {
                 if (code === 0) {
                     resolve(response.trim());
@@ -134,7 +137,7 @@ class WhatsAppBot {
                     resolve("Maaf, terjadi kesalahan sistem. Silakan coba lagi.");
                 }
             });
-            
+
             python.on('error', (error) => {
                 console.error('Failed to start Python process:', error);
                 resolve("Maaf, sistem sedang bermasalah. Silakan coba lagi nanti.");

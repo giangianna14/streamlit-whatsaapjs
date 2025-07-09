@@ -2174,5 +2174,473 @@
     "phone_number": "6281291737972",
     "current_step": "greeting",
     "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:52:51.984386",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:52:52.015936",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:54:03.735558",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:54:03.754807",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:55:06.562691",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:55:06.578121",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:55:20.460115",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:55:20.475799",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:55:34.920355",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:55:34.936064",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-09T10:55:38.879036",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-09T10:55:38.895606",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 5
+    }
+  },
+  {
+    "timestamp": "2025-07-09T10:55:45.044914",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 5
+    }
+  },
+  {
+    "timestamp": "2025-07-09T10:55:45.060355",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 5,
+      "customer_name": "Gian Gianna"
+    }
+  },
+  {
+    "timestamp": "2025-07-09T10:56:07.838985",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        1,
+        "Kopi Arabika Premium",
+        75000.0,
+        50,
+        "Kopi arabika pilihan dengan cita rasa khas",
+        "Minuman"
+      ],
+      "quantity": 5,
+      "customer_name": "Gian Gianna"
+    }
+  },
+  {
+    "timestamp": "2025-07-09T10:56:07.877003",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:56:33.841486",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:56:33.858138",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:56:51.946606",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T10:56:51.963835",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:16.495850",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:16.511865",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:22.051928",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:22.066306",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:30.634601",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:30.650537",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:33.280502",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:33.295074",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:43.703368",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:00:43.717281",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:00:46.658248",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:00:46.671791",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:00:51.508970",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ],
+      "quantity": 1
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:00:51.522877",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ],
+      "quantity": 1,
+      "customer_name": "Tresna"
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:00:55.497582",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        5,
+        "Madu Murni",
+        85000.0,
+        20,
+        "Madu murni 100% dari peternak lokal",
+        "Kesehatan"
+      ],
+      "quantity": 1,
+      "customer_name": "Tresna"
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:00:55.531455",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:29:51.701426",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:29:51.715053",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:29:56.746409",
+    "phone_number": "6281291737972",
+    "current_step": "main_menu",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:29:56.761743",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:32:08.283786",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_product",
+    "order_data": {}
+  },
+  {
+    "timestamp": "2025-07-09T11:32:08.306839",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        6,
+        "Ayam Goreng",
+        15000.0,
+        100,
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:32:15.926043",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_quantity",
+    "order_data": {
+      "product": [
+        6,
+        "Ayam Goreng",
+        15000.0,
+        100,
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:32:15.940249",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        6,
+        "Ayam Goreng",
+        15000.0,
+        100,
+        "",
+        ""
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:32:33.481324",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_name",
+    "order_data": {
+      "product": [
+        6,
+        "Ayam Goreng",
+        15000.0,
+        100,
+        "",
+        ""
+      ],
+      "quantity": 2
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:32:33.495003",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        6,
+        "Ayam Goreng",
+        15000.0,
+        100,
+        "",
+        ""
+      ],
+      "quantity": 2,
+      "customer_name": "Gibran"
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:32:40.608782",
+    "phone_number": "6281291737972",
+    "current_step": "waiting_address",
+    "order_data": {
+      "product": [
+        6,
+        "Ayam Goreng",
+        15000.0,
+        100,
+        "",
+        ""
+      ],
+      "quantity": 2,
+      "customer_name": "Gibran"
+    }
+  },
+  {
+    "timestamp": "2025-07-09T11:32:40.645776",
+    "phone_number": "6281291737972",
+    "current_step": "greeting",
+    "order_data": {}
   }
 ]

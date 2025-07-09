@@ -182,7 +182,7 @@ def show_orders_management():
                 if st.button(f"Update Status", key=f"update_{order['ID']}"):
                     update_order_status(order['ID'], new_status)
                     st.success(f"Status pesanan #{order['ID']} berhasil diupdate!")
-                    st.experimental_rerun()
+                    st.rerun()
 
 def show_products_management():
     st.header("🛍️ Kelola Produk")
@@ -204,7 +204,7 @@ def show_products_management():
             if name and price > 0:
                 add_product(name, price, stock, description, category)
                 st.success(f"Produk '{name}' berhasil ditambahkan!")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Nama produk dan harga harus diisi!")
     
@@ -225,7 +225,7 @@ def show_whatsapp_bot():
     
     # Status bot
     if os.path.exists('bot_status.txt'):
-        with open('bot_status.txt', 'r') as f:
+        with open('bot_status.txt', 'r', encoding='utf-8') as f:
             status = f.read().strip()
         
         if status == 'ready':
@@ -249,7 +249,7 @@ def show_whatsapp_bot():
     # QR Code
     if os.path.exists('qr_code.txt'):
         st.subheader("📱 QR Code untuk WhatsApp")
-        with open('qr_code.txt', 'r') as f:
+        with open('qr_code.txt', 'r', encoding='utf-8') as f:
             qr_data = f.read().strip()
         
         if qr_data:
@@ -259,7 +259,7 @@ def show_whatsapp_bot():
     # Log pesan
     st.subheader("📝 Log Pesan Terbaru")
     if os.path.exists('message_logs.json'):
-        with open('message_logs.json', 'r') as f:
+        with open('message_logs.json', 'r', encoding='utf-8') as f:
             logs = json.load(f)
         
         # Tampilkan 10 log terakhir

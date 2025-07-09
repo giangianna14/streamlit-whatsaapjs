@@ -18,7 +18,7 @@ def log_interaction(phone_number, message, response, error=None):
         
         # Baca existing log atau buat baru
         try:
-            with open('python_message_logs.json', 'r') as f:
+            with open('python_message_logs.json', 'r', encoding='utf-8') as f:
                 logs = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             logs = []
@@ -29,7 +29,7 @@ def log_interaction(phone_number, message, response, error=None):
         if len(logs) > 1000:
             logs = logs[-1000:]
         
-        with open('python_message_logs.json', 'w') as f:
+        with open('python_message_logs.json', 'w', encoding='utf-8') as f:
             json.dump(logs, f, indent=2, ensure_ascii=False)
             
     except Exception as log_error:
@@ -38,7 +38,7 @@ def log_interaction(phone_number, message, response, error=None):
 def load_sessions():
     """Memuat session dari file"""
     try:
-        with open('user_sessions.json', 'r') as f:
+        with open('user_sessions.json', 'r', encoding='utf-8') as f:
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
@@ -46,7 +46,7 @@ def load_sessions():
 def save_sessions(sessions):
     """Menyimpan session ke file"""
     try:
-        with open('user_sessions.json', 'w') as f:
+        with open('user_sessions.json', 'w', encoding='utf-8') as f:
             json.dump(sessions, f, indent=2, ensure_ascii=False)
     except Exception as e:
         print(f"Error saving sessions: {e}")
@@ -78,7 +78,7 @@ def debug_session(phone_number, sessions):
         
         # Simpan debug session
         try:
-            with open('session_debug.json', 'r') as f:
+            with open('session_debug.json', 'r', encoding='utf-8') as f:
                 debug_logs = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             debug_logs = []
@@ -89,7 +89,7 @@ def debug_session(phone_number, sessions):
         if len(debug_logs) > 500:
             debug_logs = debug_logs[-500:]
         
-        with open('session_debug.json', 'w') as f:
+        with open('session_debug.json', 'w', encoding='utf-8') as f:
             json.dump(debug_logs, f, indent=2, ensure_ascii=False)
             
     except Exception as e:

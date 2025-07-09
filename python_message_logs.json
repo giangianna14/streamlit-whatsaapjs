@@ -859,5 +859,103 @@
     "user_message": "Nyalindung",
     "bot_response": "✅ *PESANAN BERHASIL DIBUAT!*\n\n🆔 Nomor Pesanan: #7\n👤 Nama: Bahja\n🍽️ Produk: Keripik Singkong\n📊 Jumlah: 100\n💳 Total: Rp 2,500,000.0\n📍 Alamat: Nyalindung\n\n📞 Tim kami akan segera menghubungi Anda untuk konfirmasi pembayaran dan pengiriman.\n\nTerima kasih telah berbelanja di Warung Digital! 🙏\n\nKetik *menu* untuk kembali ke menu utama.",
     "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:16.525569",
+    "phone_number": "6281291737972",
+    "user_message": "pesan",
+    "bot_response": "❌ Pilihan tidak valid atau produk tidak ditemukan.\n\n🛍️ *Selamat datang di Warung Digital!*\n\nSilakan pilih menu:\n1️⃣ Lihat Menu Produk\n2️⃣ Pesan Makanan\n3️⃣ Status Pesanan\n4️⃣ Bantuan\n\nKetik angka pilihan Anda (1-4) atau ketik nama produk langsung untuk memesan.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:22.079348",
+    "phone_number": "6281291737972",
+    "user_message": "pesan makanan",
+    "bot_response": "❌ Produk \"makanan\" tidak ditemukan.\n\n📋 *MENU PRODUK KAMI:*\n\n🍽️ *Kopi Arabika Premium*\n💰 Harga: Rp 75,000.0\n📦 Stok: 50\n📝 Kopi arabika pilihan dengan cita rasa khas\n──────────────────────────────\n\n🍽️ *Teh Herbal Alami*\n💰 Harga: Rp 45,000.0\n📦 Stok: 30\n📝 Teh herbal 100% alami untuk kesehatan\n──────────────────────────────\n\n🍽️ *Keripik Singkong*\n💰 Harga: Rp 25,000.0\n📦 Stok: 100\n📝 Keripik singkong renyah dan gurih\n──────────────────────────────\n\n🍽️ *Sambal Homemade*\n💰 Harga: Rp 35,000.0\n📦 Stok: 25\n📝 Sambal buatan rumah dengan rasa pedas mantap\n──────────────────────────────\n\n🍽️ *Madu Murni*\n💰 Harga: Rp 85,000.0\n📦 Stok: 20\n📝 Madu murni 100% dari peternak lokal\n──────────────────────────────\n\n💬 *CARA MEMESAN:*\n• Ketik: *pesan [nama produk]*\n• Contoh: *pesan keripik singkong*\n• Atau: *pesan kopi* (nama singkat)\n\nAtau pilih menu *2* untuk pemesanan step-by-step.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:30.665138",
+    "phone_number": "6281291737972",
+    "user_message": "menu",
+    "bot_response": "🛍️ *Selamat datang di Warung Digital!*\n\nSilakan pilih menu:\n1️⃣ Lihat Menu Produk\n2️⃣ Pesan Makanan\n3️⃣ Status Pesanan\n4️⃣ Bantuan\n\nKetik angka pilihan Anda (1-4) atau ketik nama produk langsung untuk memesan.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:33.307763",
+    "phone_number": "6281291737972",
+    "user_message": "1",
+    "bot_response": "📋 *MENU PRODUK KAMI:*\n\n🍽️ *Kopi Arabika Premium*\n💰 Harga: Rp 75,000.0\n📦 Stok: 50\n📝 Kopi arabika pilihan dengan cita rasa khas\n──────────────────────────────\n\n🍽️ *Teh Herbal Alami*\n💰 Harga: Rp 45,000.0\n📦 Stok: 30\n📝 Teh herbal 100% alami untuk kesehatan\n──────────────────────────────\n\n🍽️ *Keripik Singkong*\n💰 Harga: Rp 25,000.0\n📦 Stok: 100\n📝 Keripik singkong renyah dan gurih\n──────────────────────────────\n\n🍽️ *Sambal Homemade*\n💰 Harga: Rp 35,000.0\n📦 Stok: 25\n📝 Sambal buatan rumah dengan rasa pedas mantap\n──────────────────────────────\n\n🍽️ *Madu Murni*\n💰 Harga: Rp 85,000.0\n📦 Stok: 20\n📝 Madu murni 100% dari peternak lokal\n──────────────────────────────\n\n💬 *CARA MEMESAN:*\n• Ketik: *pesan [nama produk]*\n• Contoh: *pesan keripik singkong*\n• Atau: *pesan kopi* (nama singkat)\n\nAtau pilih menu *2* untuk pemesanan step-by-step.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:43.729917",
+    "phone_number": "6281291737972",
+    "user_message": "pesan madu",
+    "bot_response": "✅ Produk ditemukan: *Madu Murni*\n💰 Harga: Rp 85,000.0\n📦 Stok tersedia: 20\n\nBerapa jumlah yang ingin Anda pesan?\nKetik angka saja (contoh: 2)",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:46.684731",
+    "phone_number": "6281291737972",
+    "user_message": "1",
+    "bot_response": "📋 *RINGKASAN PESANAN:*\n🍽️ Produk: Madu Murni\n📊 Jumlah: 1\n💰 Harga satuan: Rp 85,000.0\n💳 Total: Rp 85,000.0\n\nSilakan masukkan nama Anda untuk pesanan ini:",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:51.536532",
+    "phone_number": "6281291737972",
+    "user_message": "Tresna",
+    "bot_response": "📍 Silakan masukkan alamat pengiriman Anda:",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:00:55.545103",
+    "phone_number": "6281291737972",
+    "user_message": "Lembang",
+    "bot_response": "✅ *PESANAN BERHASIL DIBUAT!*\n\n🆔 Nomor Pesanan: #9\n👤 Nama: Tresna\n🍽️ Produk: Madu Murni\n📊 Jumlah: 1\n💳 Total: Rp 85,000.0\n📍 Alamat: Lembang\n\n📞 Tim kami akan segera menghubungi Anda untuk konfirmasi pembayaran dan pengiriman.\n\nTerima kasih telah berbelanja di Warung Digital! 🙏\n\nKetik *menu* untuk kembali ke menu utama.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:29:51.727979",
+    "phone_number": "6281291737972",
+    "user_message": "halo",
+    "bot_response": "🛍️ *Selamat datang di Warung Digital!*\n\nSilakan pilih menu:\n1️⃣ Lihat Menu Produk\n2️⃣ Pesan Makanan\n3️⃣ Status Pesanan\n4️⃣ Bantuan\n\nKetik angka pilihan Anda (1-4) atau ketik nama produk langsung untuk memesan.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:29:56.774499",
+    "phone_number": "6281291737972",
+    "user_message": "pesan ayam",
+    "bot_response": "❌ Produk \"ayam\" tidak ditemukan.\n\n📋 *MENU PRODUK KAMI:*\n\n🍽️ *Kopi Arabika Premium*\n💰 Harga: Rp 75,000.0\n📦 Stok: 50\n📝 Kopi arabika pilihan dengan cita rasa khas\n──────────────────────────────\n\n🍽️ *Teh Herbal Alami*\n💰 Harga: Rp 45,000.0\n📦 Stok: 30\n📝 Teh herbal 100% alami untuk kesehatan\n──────────────────────────────\n\n🍽️ *Keripik Singkong*\n💰 Harga: Rp 25,000.0\n📦 Stok: 100\n📝 Keripik singkong renyah dan gurih\n──────────────────────────────\n\n🍽️ *Sambal Homemade*\n💰 Harga: Rp 35,000.0\n📦 Stok: 25\n📝 Sambal buatan rumah dengan rasa pedas mantap\n──────────────────────────────\n\n🍽️ *Madu Murni*\n💰 Harga: Rp 85,000.0\n📦 Stok: 20\n📝 Madu murni 100% dari peternak lokal\n──────────────────────────────\n\n💬 *CARA MEMESAN:*\n• Ketik: *pesan [nama produk]*\n• Contoh: *pesan keripik singkong*\n• Atau: *pesan kopi* (nama singkat)\n\nAtau pilih menu *2* untuk pemesanan step-by-step.",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:32:08.323840",
+    "phone_number": "6281291737972",
+    "user_message": "pesan ayam",
+    "bot_response": "✅ Produk ditemukan: *Ayam Goreng*\n💰 Harga: Rp 15,000.0\n📦 Stok tersedia: 100\n\nBerapa jumlah yang ingin Anda pesan?\nKetik angka saja (contoh: 2)",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:32:15.953258",
+    "phone_number": "6281291737972",
+    "user_message": "2",
+    "bot_response": "📋 *RINGKASAN PESANAN:*\n🍽️ Produk: Ayam Goreng\n📊 Jumlah: 2\n💰 Harga satuan: Rp 15,000.0\n💳 Total: Rp 30,000.0\n\nSilakan masukkan nama Anda untuk pesanan ini:",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:32:33.508071",
+    "phone_number": "6281291737972",
+    "user_message": "Gibran",
+    "bot_response": "📍 Silakan masukkan alamat pengiriman Anda:",
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-09T11:32:40.658503",
+    "phone_number": "6281291737972",
+    "user_message": "Jl Sukahaji no 61",
+    "bot_response": "✅ *PESANAN BERHASIL DIBUAT!*\n\n🆔 Nomor Pesanan: #10\n👤 Nama: Gibran\n🍽️ Produk: Ayam Goreng\n📊 Jumlah: 2\n💳 Total: Rp 30,000.0\n📍 Alamat: Jl Sukahaji no 61\n\n📞 Tim kami akan segera menghubungi Anda untuk konfirmasi pembayaran dan pengiriman.\n\nTerima kasih telah berbelanja di Warung Digital! 🙏\n\nKetik *menu* untuk kembali ke menu utama.",
+    "error": null
   }
 ]
