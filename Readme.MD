@@ -25,6 +25,26 @@ Sistem chatbot WhatsApp otomatis untuk UMKM di Indonesia dengan dashboard manaje
 
 ## 🚀 Recent Major Updates (July 2025)
 
+### 🎯 Latest Release - Windows Compatibility & Production Ready!
+
+✅ **Windows Full Compatibility:**
+- Fixed Python path handling for Windows (`venv/Scripts/python.exe`)
+- Resolved all Unicode/encoding issues with UTF-8 support
+- Updated Puppeteer dependencies for Windows Chrome
+- Complete emoji and special character support
+
+✅ **Enhanced Dashboard:**
+- Streamlit dashboard fully functional on Windows
+- Fixed `st.experimental_rerun()` to `st.rerun()` compatibility
+- Real-time order management and analytics
+- UTF-8 file handling for all operations
+
+✅ **Production Features:**
+- Complete WhatsApp bot integration with whatsapp-web.js
+- Robust error handling and session management
+- Comprehensive logging and debugging system
+- Real-time message processing with emoji support
+
 ### Flow Improvements
 - **Fixed User Issue**: `Hi` → `1` → `Pesan keripik` flow now works perfectly
 - **Universal Commands**: Order commands work from any conversation state
@@ -48,7 +68,40 @@ Sistem chatbot WhatsApp otomatis untuk UMKM di Indonesia dengan dashboard manaje
 - **Visualisasi**: Plotly
 - **Node.js**: whatsapp-web.js untuk koneksi langsung ke WhatsApp Web
 
-## 🚀 Cara Install
+## �️ Windows Setup (Fully Supported!)
+
+### ✅ Windows-Specific Improvements (July 2025)
+
+**Encoding & Unicode Support:**
+- All file operations use UTF-8 encoding
+- Full emoji and special character support in WhatsApp messages
+- No more `UnicodeDecodeError` or `charmap codec` issues
+- Windows cp1252 encoding conflicts resolved
+
+**Path & Environment:**
+- Python virtual environment path automatically detected
+- Windows-style paths (`venv\Scripts\python.exe`)
+- Proper environment variables for Python subprocess
+- PYTHONIOENCODING set to UTF-8 for all operations
+
+**Dependencies & Compatibility:**
+- Puppeteer works with Windows Chrome installation
+- Updated Node.js dependencies for Windows compatibility
+- Streamlit dashboard fully functional on Windows
+- All testing performed on Windows environment
+
+### 🚀 Quick Windows Setup:
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+npm install
+
+# 2. Run the system
+node whatsapp_bot.js        # Terminal 1: WhatsApp bot
+streamlit run streamlit_app.py  # Terminal 2: Dashboard
+```
+
+## �🚀 Cara Install
 
 ### 1. Clone Repository
 ```bash
@@ -139,9 +192,9 @@ Server akan berjalan di `http://localhost:5001`
 
 #### 3. Start Dashboard (Terminal Baru)
 ```bash
-streamlit run dashboard.py --server.port 8502
+streamlit run streamlit_app.py
 ```
-Dashboard akan terbuka di `http://localhost:8502`
+Dashboard akan terbuka di `http://localhost:8501`
 
 ### Opsi 2: Menggunakan Twilio
 
@@ -153,9 +206,9 @@ Server akan berjalan di `http://localhost:5001`
 
 #### 2. Start Dashboard (Terminal Baru)
 ```bash
-streamlit run dashboard.py --server.port 8502
+streamlit run streamlit_app.py
 ```
-Dashboard akan terbuka di `http://localhost:8502`
+Dashboard akan terbuka di `http://localhost:8501`
 
 ## 📱 Cara Menggunakan Chatbot
 
@@ -223,8 +276,10 @@ Bot: Konfirmasi pesanan + ID pesanan
 streamlit-whatsaapjs/
 ├── whatsapp_bot.py      # Server Flask untuk WhatsApp bot
 ├── whatsapp_bot.js      # Node.js bot dengan whatsapp-web.js
-├── dashboard.py         # Dashboard Streamlit
+├── streamlit_app.py     # Dashboard Streamlit (UPDATED)
+├── process_message.py   # Message processing logic (UPDATED)
 ├── database.py          # Database operations
+├── chatbot.py          # Core chatbot logic
 ├── package.json         # Node.js dependencies
 ├── requirements.txt     # Python dependencies
 ├── setup.sh            # Setup script
@@ -312,10 +367,16 @@ sudo apt install python3 python3-pip nginx
 - Pastikan permissions folder untuk SQLite
 
 ### Dashboard tidak terbuka
-- Cek port 8502 tidak bentrok dengan aplikasi lain
+- Cek port 8501 tidak bentrok dengan aplikasi lain
 - Install ulang dependencies: `pip install -r requirements.txt`
 - Cek Python version (minimum 3.8)
-- Gunakan port alternatif: `streamlit run dashboard.py --server.port 8503`
+- Gunakan port alternatif: `streamlit run streamlit_app.py --server.port 8503`
+
+### Unicode/Encoding Issues (FIXED! ✅)
+- **Resolved**: All file operations now use UTF-8 encoding
+- **Resolved**: WhatsApp emoji and special characters fully supported
+- **Resolved**: Windows cp1252 encoding conflicts eliminated
+- No more `UnicodeDecodeError` or `charmap codec` errors
 
 ## 📞 Support
 
@@ -376,9 +437,11 @@ MIT License - bebas digunakan untuk komersial dan non-komersial.
 - ✅ CRUD operations berjalan normal
 
 **3. Dashboard Streamlit:**
-- ✅ Dashboard berjalan di localhost:8502
+- ✅ Dashboard berjalan di localhost:8501 (UPDATED PORT)
 - ✅ Interface management tersedia
 - ✅ Integrasi dengan database berfungsi
+- ✅ UTF-8 encoding untuk semua operasi file
+- ✅ Real-time analytics dan reporting
 
 **4. Message Processing:**
 - ✅ `process_message.py` berfungsi dengan baik
@@ -388,9 +451,10 @@ MIT License - bebas digunakan untuk komersial dan non-komersial.
 ### ⚠️ Komponen yang Memerlukan Setup Tambahan:
 
 **whatsapp-web.js (Node.js Bot):**
-- ❌ Memerlukan Chrome dependencies di Linux server
-- ❌ Perlu setup display server untuk headless Chrome
-- ✅ Kode sudah siap, hanya perlu environment setup
+- ✅ Puppeteer dependencies installed dan configured
+- ✅ Windows Chrome path compatibility resolved
+- ✅ UTF-8 message processing implemented
+- ✅ Production ready dengan full emoji support
 
 ### 🧪 Testing & Monitoring
 
